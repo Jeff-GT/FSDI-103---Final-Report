@@ -1,0 +1,105 @@
+body{
+    background-image: url(/img/background.jpg);
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    color: white;
+}
+
+/*~~~~~~~~~~~~~~~~Javascript~~~~~~~~~~~~~~~~*/
+.temp-Type{
+    text-align: center;
+}
+
+.temp-result{
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;  
+    /* coold background-color: rgb(127, 208, 255);*/
+    /* hot background-color: rgb(207, 84, 84);*/
+    /* normal background-color: rgb(198, 212, 212);*/
+}
+
+.cold-temp{
+    background-color: rgba(127, 208, 255,0.7);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: .5px solid white;
+}
+.cold-temp:hover{
+    background-color: rgb(127, 208, 255);
+}
+
+.normal-temp{
+    background-color: rgba(198, 212, 212,0.7);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+.normal-temp:hover{
+    background-color: rgb(198, 212, 212);
+}
+.hot-temp{
+    background-color: rgba(224, 60, 60,0.7);
+    color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+.hot-temp:hover{
+    background-color: rgb(207, 84, 84);
+}
+.selection{
+    text-align: center;
+    margin-top: 100px;
+}
+.range{
+    margin-bottom: 40px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~html~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~~*/
+.btn{
+    text-align: center;
+    background-color: rgb(42, 157, 185);
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: rgb(25, 81, 95);
+    border: 3px solid rgb(192, 190, 190);
+}
+
+
+/*~~~~~~~~~~~~~~~~Function~~~~~~~~~~~~~~~~*/
+.function-holder{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+.separator{
+    margin-top: 30px;
+}
