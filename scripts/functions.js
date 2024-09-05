@@ -60,7 +60,7 @@ function fahToCel(){
             document.getElementById("result").innerHTML+=`
             <div class="cold-temp">
             
-            <p>${startValue}°C = ${res}°F</p>
+            <p>${startValue}°F = ${res}°C</p>
             
             </div>`;
         }
@@ -68,7 +68,7 @@ function fahToCel(){
             document.getElementById("result").innerHTML+=`
             <div class="normal-temp">
             
-            <p>${startValue}°C = ${res}°F</p>
+            <p>${startValue}°F = ${res}°C</p>
             
             </div>`;
         }
@@ -76,7 +76,7 @@ function fahToCel(){
             document.getElementById("result").innerHTML+=`
             <div class="hot-temp">
             
-            <p>${startValue}°C = ${res}°F</p>
+            <p>${startValue}°F = ${res}°C</p>
             
             </div>`;
         }
